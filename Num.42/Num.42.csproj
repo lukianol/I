@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2BF3E8E3-C092-4A6F-84EA-0D046F8D9884}</ProjectGuid>
+    <ProjectGuid>{52B4451B-29BC-4A22-BC07-357485D4A86F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Test</RootNamespace>
-    <AssemblyName>Test</AssemblyName>
+    <RootNamespace>Num._42</RootNamespace>
+    <AssemblyName>Num.42</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework">
-      <HintPath>..\3rdparty\nunit\nunit.framework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,25 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Num_42_Test.cs" />
-    <Compile Include="Num_39_Test.cs" />
-    <Compile Include="Num_38_Test.cs" />
+    <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ThisTestIsAnswerAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Num.38\Num.38.csproj">
-      <Project>{05E94102-E45F-4D41-913E-A55E8FCFE717}</Project>
-      <Name>Num.38</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Num.39\Num.39.csproj">
-      <Project>{B8D0A177-D5AB-456A-9836-3094C396B8F7}</Project>
-      <Name>Num.39</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Num.42\Num.42.csproj">
-      <Project>{52B4451B-29BC-4A22-BC07-357485D4A86F}</Project>
-      <Name>Num.42</Name>
-    </ProjectReference>
+    <Content Include="Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

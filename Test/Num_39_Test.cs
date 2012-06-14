@@ -8,15 +8,21 @@ namespace Test
     {   
         [ThisTestIsAnswer]
         [Test]
-        [TestCase(new[]{1, 2, 3, 4,5}, false)]
-        [TestCase(new[] { 1, 2, 3, 4, 1 }, true)]
-        [TestCase(new[] { 1, 2, 1, 4, 3 }, true)]
-        [TestCase(new[] { 1, 2, 5, 5, 2 }, true)]
-        [TestCase(new[] { 3, 2, 1, 4, 5 }, false)]
-        public void Test(int[] array, bool expected)
+        [TestCase(new[] { 1, 2, 3, 4, 1 })]
+        [TestCase(new[] { 1, 2, 1, 4, 3 })]
+        [TestCase(new[] { 1, 2, 5, 5, 2 })]
+        public void HasArrayDuplicates_Returns_True_If_They_Are_In_Array(int[] array)
         {
-            var actual = Main.HasArrayDuplicates(array);
-            Assert.AreEqual(expected, actual);
+            Assert.IsTrue(Main.HasArrayDuplicates(array));
+        }
+
+        [ThisTestIsAnswer]
+        [Test]
+        [TestCase(new[] { 1, 2, 3, 4, 5 })]
+        [TestCase(new[] { 3, 2, 1, 4, 5 })]
+        public void HasArrayDuplicates_Returns_False_If_They_Are_Not_In_Array(int[] array)
+        {
+            Assert.IsFalse(Main.HasArrayDuplicates(array));
         }
 
     }

@@ -1,0 +1,1 @@
+﻿Give a one-line C expression to test whether a number is a power of 2.
