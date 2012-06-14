@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{05E94102-E45F-4D41-913E-A55E8FCFE717}</ProjectGuid>
+    <ProjectGuid>{B8D0A177-D5AB-456A-9836-3094C396B8F7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Num._38</RootNamespace>
-    <AssemblyName>Num.38</AssemblyName>
+    <RootNamespace>Num._39</RootNamespace>
+    <AssemblyName>Num.39</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,11 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ISubArrayWithLargestSumStrategy.cs" />
-    <Compile Include="LinearSubArrayWithLargestSumStrategy.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CalibratingSubArrayWithLargestSumStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />

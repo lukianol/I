@@ -43,13 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Num_39_Test.cs" />
     <Compile Include="Num_38_Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThisTestIsAnswerAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Num.38\Num.38.csproj">
       <Project>{05E94102-E45F-4D41-913E-A55E8FCFE717}</Project>
       <Name>Num.38</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Num.39\Num.39.csproj">
+      <Project>{B8D0A177-D5AB-456A-9836-3094C396B8F7}</Project>
+      <Name>Num.39</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

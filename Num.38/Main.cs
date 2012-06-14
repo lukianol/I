@@ -2,13 +2,6 @@
 {
     public static class Main
     {
-        /// <summary>
-        /// You're given an array containing both positive and negative integers and
-        ///required to find the sub-array with the largest sum (O(N) a la KBL)
-        /// </summary>
-        /// <param name="array">an array containing both positive and negative integers </param>
-        ///<param name="strategy">The actual algorithm, I've implemented two of them, one for test and another as an answer</param>
-        ///<returns>the sub-array with the largest sum</returns>
         public static int[] GetSubArrayWithLargestSum(int[] array, ISubArrayWithLargestSumStrategy strategy)
         {
             int[] subArrayWithMaxSum;

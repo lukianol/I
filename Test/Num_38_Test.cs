@@ -20,7 +20,7 @@ namespace Test
                                                                 new object[] {new[] { -1, 2, 3, 4, -5 }, new[] { 2, 3, 4 }},
                                                                 new object[] {new[] { 2, 1, -2, 5, 2, 0 }, new[] { 2, 1, -2, 5, 2 }}
                                                             };
-        //NOTE: Answer is in this test method
+        [ThisTestIsAnswer]
         [Test]
         [TestCaseSource("ExamplesOfArrayAndSubArrays")]
         [Description("This LinearSubArrayWithLargestSumStrategy is an answer to the question Num. 38")]
