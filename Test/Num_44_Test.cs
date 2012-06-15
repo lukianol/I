@@ -46,7 +46,7 @@ namespace Test
         {
             get
             {
-                yield return Convert.ToInt32("1101", 2);
+                yield return Convert.ToInt32("10000000110", 2);
                 yield return Convert.ToInt32("1011", 2);
                 yield return Convert.ToInt32("1110", 2);
             }

@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2BF3E8E3-C092-4A6F-84EA-0D046F8D9884}</ProjectGuid>
+    <ProjectGuid>{D647819C-BA86-48C6-9498-E7E6A68D2450}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Test</RootNamespace>
-    <AssemblyName>Test</AssemblyName>
+    <RootNamespace>Num._45</RootNamespace>
+    <AssemblyName>Num.45</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework">
-      <HintPath>..\3rdparty\nunit\nunit.framework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,40 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Num_45_Test.cs" />
-    <Compile Include="Num_44_Test.cs" />
-    <Compile Include="Num_43_Test.cs" />
-    <Compile Include="Num_42_Test.cs" />
-    <Compile Include="Num_39_Test.cs" />
-    <Compile Include="Num_38_Test.cs" />
+    <Compile Include="LinkedNode.cs" />
+    <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ThisTestIsAnswerAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Num.38\Num.38.csproj">
-      <Project>{05E94102-E45F-4D41-913E-A55E8FCFE717}</Project>
-      <Name>Num.38</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Num.39\Num.39.csproj">
-      <Project>{B8D0A177-D5AB-456A-9836-3094C396B8F7}</Project>
-      <Name>Num.39</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Num.42\Num.42.csproj">
-      <Project>{52B4451B-29BC-4A22-BC07-357485D4A86F}</Project>
-      <Name>Num.42</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Num.43\Num.43.csproj">
-      <Project>{CEE6020E-40DD-4E65-A596-B79D942654A5}</Project>
-      <Name>Num.43</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Num.44\Num.44.csproj">
-      <Project>{B1115103-5C95-4C3C-9110-760A80F1D8A0}</Project>
-      <Name>Num.44</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Num.45\Num.45.csproj">
-      <Project>{D647819C-BA86-48C6-9498-E7E6A68D2450}</Project>
-      <Name>Num.45</Name>
-    </ProjectReference>
+    <Content Include="Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
