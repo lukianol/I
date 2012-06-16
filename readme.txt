@@ -1,0 +1,2 @@
+This solution is answers to some Microsoft Interview questions, Programming section. 
+Tasks are got from references at "docs/Applicant Check List (SDE + SDET).docx" to "docs/Microsoft Interview Questions!"
