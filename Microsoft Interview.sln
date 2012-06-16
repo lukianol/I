@@ -15,6 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Num.44", "Num.44\Num.44.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Num.45", "Num.45\Num.45.csproj", "{D647819C-BA86-48C6-9498-E7E6A68D2450}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{6704FB22-D6C0-41C2-A98B-6F8B467FDD6E}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Applicant Check List (SDE + SDET).docx = docs\Applicant Check List (SDE + SDET).docx
+		docs\Microsoft Interview Questions!.pdf = docs\Microsoft Interview Questions!.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Num.47", "Num.47\Num.47.csproj", "{23CBDF13-2E5D-4849-A603-2AD8562C1EE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +57,10 @@ Global
 		{D647819C-BA86-48C6-9498-E7E6A68D2450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D647819C-BA86-48C6-9498-E7E6A68D2450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D647819C-BA86-48C6-9498-E7E6A68D2450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23CBDF13-2E5D-4849-A603-2AD8562C1EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CBDF13-2E5D-4849-A603-2AD8562C1EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CBDF13-2E5D-4849-A603-2AD8562C1EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CBDF13-2E5D-4849-A603-2AD8562C1EE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

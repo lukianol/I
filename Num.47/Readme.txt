@@ -1,0 +1,1 @@
+﻿Give a fast way to multiply a number by 7.
