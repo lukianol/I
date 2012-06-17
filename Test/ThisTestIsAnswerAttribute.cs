@@ -1,20 +1,20 @@
 ﻿using System;
+using System.ComponentModel;
 
 namespace Test
 {
-    [AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
-    public sealed class ThisTestIsAnswerAttribute : Attribute
+    
+   // [AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
+    public sealed class ThisTestIsAnswerAttribute : DescriptionAttribute
     {
         public ThisTestIsAnswerAttribute()
         {
             
         }
 
-        public ThisTestIsAnswerAttribute(string description)
+        public ThisTestIsAnswerAttribute(string description) : base(description)
         {
-            Description = description;
+            
         }
-
-        public string Description { get; private set; }
     }
 }

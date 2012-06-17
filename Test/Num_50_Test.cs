@@ -14,7 +14,7 @@ namespace Test
         [TestCase(new[] { 2, 1, 3, 3 }, 3, new[] { 2, 1 })]
         [TestCase(new[] { 2, 1, 1, 4 }, 1, new[] { 2, 4 })]
         [TestCase(new int[] { }, 5, new int[] { })]
-        public void Test(int[] values, int elementToDelete, int[] expected)
+        public void Delete_Deletes_An_Element_From_The_List(int[] values, int elementToDelete, int[] expected)
         {
             var list = new DoubledLinkedList<int>(values);
             list.Delete(elementToDelete);
