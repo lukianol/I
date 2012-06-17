@@ -1,0 +1,1 @@
+﻿Delete an element from a doubly linked list.
