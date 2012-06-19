@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Num_58_Test.cs" />
     <Compile Include="Num_57_Test.cs" />
     <Compile Include="Num_56_Test.cs" />
     <Compile Include="Num_50_Test.cs" />
@@ -96,6 +97,10 @@
     <ProjectReference Include="..\Num.57\Num.57.csproj">
       <Project>{17475F49-6EC6-47BC-B388-2D6AF56EE374}</Project>
       <Name>Num.57</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Num.58\Num.58.csproj">
+      <Project>{EE6593F0-2ED9-4871-A9FC-D4D7535BA0A4}</Project>
+      <Name>Num.58</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
