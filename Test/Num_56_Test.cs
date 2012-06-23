@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using System.Linq;
+﻿using System.Linq;
 using NUnit.Framework;
 using Num._56;
 
@@ -16,12 +15,12 @@ namespace Test
         {
             const int allowableNumberOfUnshuffledCards = 5; // you can turn this option to make the test pass
 
-            var packToShuffle = Main.GetNewPack();
+            Card[] packToShuffle = Main.GetNewPack();
             Main.ShufflePack(packToShuffle);
-            var packToCheck = Main.GetNewPack();
+            Card[] packToCheck = Main.GetNewPack();
             Main.ShufflePack(packToCheck);
             Assert.AreEqual(packToShuffle.Length, packToCheck.Length);
-            var unshuffledCount = packToCheck.Where((t, i) => packToShuffle[i] == t).Count();
+            int unshuffledCount = packToCheck.Where((t, i) => packToShuffle[i] == t).Count();
             Assert.GreaterOrEqual(allowableNumberOfUnshuffledCards, unshuffledCount);
         }
     }

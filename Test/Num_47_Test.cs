@@ -15,10 +15,10 @@ namespace Test
         {
             unchecked
             {
-                var i = new Random().Next(int.MinValue, int.MaxValue);
+                int i = new Random().Next(int.MinValue, int.MaxValue);
                 var actual = Main.MultiplyBy7(i);
-                Assert.AreEqual(i * 7, actual);
+                Assert.AreEqual(i*7, actual);
             }
         }
-     }
+    }
 }
