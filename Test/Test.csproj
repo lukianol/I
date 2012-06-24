@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Num_72_Test.cs" />
+    <Compile Include="Num_56_Test.cs" />
     <Compile Include="Num_60_Test.cs" />
     <Compile Include="Num_59_Test.cs" />
     <Compile Include="Num_70_Test.cs" />
@@ -60,6 +62,10 @@
     <Compile Include="ThisTestIsAnswerAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{49785B9D-0EDC-4210-8A3F-9999B024BB97}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Num.38\Num.38.csproj">
       <Project>{05E94102-E45F-4D41-913E-A55E8FCFE717}</Project>
       <Name>Num.38</Name>
@@ -115,6 +121,10 @@
     <ProjectReference Include="..\Num.70\Num.70.csproj">
       <Project>{226AAA6C-F260-4811-86AE-E7D5726A5B4A}</Project>
       <Name>Num.70</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Num.72\Num.72.csproj">
+      <Project>{2D5D8DDA-3D65-40C2-AC4D-3E3F7E21270F}</Project>
+      <Name>Num.72</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

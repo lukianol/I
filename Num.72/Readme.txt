@@ -1,0 +1,1 @@
+﻿Set the highest significant bit of an unsigned integer to zero.
