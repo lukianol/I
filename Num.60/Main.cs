@@ -4,10 +4,10 @@ namespace Num._60
 {
     public static class Main
     {  
-        public static int[] CompressArray(int[] array)
+        public static T[] CompressArray<T>(T[] array)
         {
-            var hashes = new HashSet<int>(array);
-            var compressedArray = new int[hashes.Count];
+            var hashes = new HashSet<T>(array);
+            var compressedArray = new T[hashes.Count];
             hashes.CopyTo(compressedArray, 0);
             return compressedArray;
         }
