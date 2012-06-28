@@ -7,6 +7,7 @@ namespace Test
     [TestFixture]
     public class Num_46_Test
     {
+        [ThisTestIsAnswer]
         [Test]
         public void InsertInSortedList_Works()
         {
