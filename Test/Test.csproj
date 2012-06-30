@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Num_49_Test.cs" />
     <Compile Include="Num_48_Test.cs" />
     <Compile Include="Num_46_Test.cs" />
     <Compile Include="Num_52_Test.cs" />
@@ -113,6 +114,10 @@
     <ProjectReference Include="..\Num.48\Num.48.csproj">
       <Project>{D6354A5A-70F0-4BAB-8FC5-35A7D0E32D98}</Project>
       <Name>Num.48</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Num.49\Num.49.csproj">
+      <Project>{55A04F20-70A8-4BFE-9044-5321122B81F5}</Project>
+      <Name>Num.49</Name>
     </ProjectReference>
     <ProjectReference Include="..\Num.50\Num.50.csproj">
       <Project>{08FD2E8C-19AF-4A0F-B282-03810F17A579}</Project>
