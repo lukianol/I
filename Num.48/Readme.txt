@@ -1,0 +1,1 @@
+﻿Linked list manipulation. Operations: add element (to the end, to specific index); delete element by index; get element by index
