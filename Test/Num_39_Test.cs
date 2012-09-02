@@ -12,7 +12,7 @@ namespace Test
         [TestCase(new[] {3, 2, 1, 4, 5})]
         public void HasArrayDuplicates_Returns_False_If_They_Are_Not_In_Array(int[] array)
         {
-            Assert.IsFalse(Main.HasArrayDuplicates(array));
+            Assert.IsFalse(Main.HasArrayDuplicatesArray(array));
         }
 
         [ThisTestIsAnswer]
@@ -22,7 +22,7 @@ namespace Test
         [TestCase(new[] {1, 2, 5, 5, 2})]
         public void HasArrayDuplicates_Returns_True_If_They_Are_In_Array(int[] array)
         {
-            Assert.IsTrue(Main.HasArrayDuplicates(array));
+            Assert.IsTrue(Main.HasArrayDuplicatesArray(array));
         }
     }
 }
