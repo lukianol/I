@@ -18,7 +18,8 @@ namespace Test
                 new object[] {new[] {-1, 2, -3, -5, 4}, new[] {4}},
                 new object[] {new[] {-1, -2, -3, 4, 5}, new[] {4, 5}},
                 new object[] {new[] {-1, 2, 3, 4, -5}, new[] {2, 3, 4}},
-                new object[] {new[] {2, 1, -2, 5, 2, 0}, new[] {2, 1, -2, 5, 2}}
+                new object[] {new[] {2, 1, -2, 5, 2, 0}, new[] {2, 1, -2, 5, 2}},
+                new object[] {new[] {3, 5, -3, -6, 2, 1}, new [] {3, 5}}
             };
 
         private static readonly CalibratingSubArrayWithLargestSumStrategy CalibratingSubArrayWithLargestSumStrategy =

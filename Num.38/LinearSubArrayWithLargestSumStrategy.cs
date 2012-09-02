@@ -9,29 +9,29 @@ namespace Num._38
         {
             int start = 0
                 , end = 0
-                , temp = 0
+                , newStart = 0
                 , currentSum = 0
-                , max = 0;
+                , capturedSum = 0;
 
             var allAreNegative = true;
-            var maxValue = array[0];
+            var maxValueInCaseOfAllNegatives = array[0];
 
             for (var i = 0; i < array.Length; i++)
             {
                 currentSum += array[i];
                 allAreNegative &= (array[i] < 0);
-                if (allAreNegative) maxValue = Math.Max(maxValue, array[i]);
+                if (allAreNegative) maxValueInCaseOfAllNegatives = Math.Max(maxValueInCaseOfAllNegatives, array[i]);
 
-                if (currentSum > max)
+                if (currentSum > capturedSum)
                 {
-                    start = temp;
+                    start = newStart;
                     end = i;
-                    max = currentSum;
+                    capturedSum = currentSum;
                 }
                 else if (currentSum < 0)
                 {
                     currentSum = 0;
-                    temp = i + 1;
+                    newStart = i + 1;
                 }
 
             }
@@ -42,7 +42,7 @@ namespace Num._38
                     .Take(end - start + 1)
                     .ToArray();
 
-            return new[] {maxValue};
+            return new[] {maxValueInCaseOfAllNegatives};
         }
     }
 }
