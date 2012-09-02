@@ -16,5 +16,18 @@
 
             return counter;
         }
+
+        /// <summary>
+        /// This algorithm is really a hard rock. And hard to epxlain.
+        /// I got it from http://stackoverflow.com/questions/109023/best-algorithm-to-count-the-number-of-set-bits-in-a-32-bit-integer
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
+        public static int GetNumberOfOnesV2(int i)
+        {
+            i = i - ((i >> 1) & 0x55555555);
+            i = (i & 0x33333333) + ((i >> 2) & 0x33333333);
+            return (((i + (i >> 4)) & 0x0F0F0F0F) * 0x01010101) >> 24;
+        }
     }
 }

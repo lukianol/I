@@ -51,5 +51,29 @@ namespace Test
             var numberOfOnes = Main.GetNumberOfOnes(number);
             Assert.AreEqual(3, numberOfOnes);
         }
+
+        [ThisTestIsAnswer]
+        [Test]
+        public void GetNumberOfOnesV2_Returns_0([Values(0)] int number)
+        {
+            var numberOfOnes = Main.GetNumberOfOnesV2(number);
+            Assert.AreEqual(0, numberOfOnes);
+        }
+
+        [ThisTestIsAnswer]
+        [Test]
+        public void GetNumberOfOnesV2_Returns_1([ValueSource("IntsWithOneNumber")] int number)
+        {
+            var numberOfOnes = Main.GetNumberOfOnesV2(number);
+            Assert.AreEqual(1, numberOfOnes);
+        }
+
+        [ThisTestIsAnswer]
+        [Test]
+        public void GetNumberOfOnesV2_Returns_3([ValueSource("IntsWithThreeNumbers")] int number)
+        {
+            var numberOfOnes = Main.GetNumberOfOnesV2(number);
+            Assert.AreEqual(3, numberOfOnes);
+        }
     }
 }
