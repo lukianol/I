@@ -29,5 +29,16 @@
             i = (i & 0x33333333) + ((i >> 2) & 0x33333333);
             return (((i + (i >> 4)) & 0x0F0F0F0F) * 0x01010101) >> 24;
         }
+
+        public static int GetNumberOfOnesV3(int number)
+        {
+            int i;
+
+            for (i = 0; number != 0; i++)
+                number &= number - 1;
+
+            return i;
+        }    
+
     }
 }
