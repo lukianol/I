@@ -1,0 +1,1 @@
+﻿Write an efficient algorithm and C code to shuffle a pack of cards
