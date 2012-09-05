@@ -4,6 +4,7 @@ namespace Num._63
 {
     public static class Main
     {
+        /*There is a better solution */
         public static void LargestAndSmallestLexStringFromArray(string[] array, out string smallest, out string largest)
         {
             if (array == null)

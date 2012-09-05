@@ -1,1 +1,1 @@
-﻿Reverse the bits of an unsigned integer.
+﻿Compute the discrete log of an unsigned integer.
