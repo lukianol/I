@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BreadthFirstTraversal_Test.cs" />
     <Compile Include="Num_54_Test.cs" />
     <Compile Include="Num_49_Test.cs" />
     <Compile Include="Num_48_Test.cs" />
@@ -72,6 +73,10 @@
     <Compile Include="ThisTestIsAnswerAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BreadthFirstTraversal\BreadthFirstTraversal.csproj">
+      <Project>{8DE5DFEA-B5D2-4C9E-BA91-E53EA88018A8}</Project>
+      <Name>BreadthFirstTraversal</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{49785B9D-0EDC-4210-8A3F-9999B024BB97}</Project>
       <Name>Common</Name>

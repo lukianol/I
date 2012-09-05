@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Num.49", "Num.49\Num.49.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Num.54", "Num.54\Num.54.csproj", "{C1E8D606-1CBE-4C24-B5D7-FF082B33CAB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadthFirstTraversal", "BreadthFirstTraversal\BreadthFirstTraversal.csproj", "{8DE5DFEA-B5D2-4C9E-BA91-E53EA88018A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -175,6 +177,10 @@ Global
 		{C1E8D606-1CBE-4C24-B5D7-FF082B33CAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1E8D606-1CBE-4C24-B5D7-FF082B33CAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1E8D606-1CBE-4C24-B5D7-FF082B33CAB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE5DFEA-B5D2-4C9E-BA91-E53EA88018A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE5DFEA-B5D2-4C9E-BA91-E53EA88018A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE5DFEA-B5D2-4C9E-BA91-E53EA88018A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE5DFEA-B5D2-4C9E-BA91-E53EA88018A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
